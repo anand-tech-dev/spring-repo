@@ -9,6 +9,7 @@ pipeline {
        steps {
           // Just print a Hello, Pipeline to the console
           echo "Hello, Pipeline!"
+          sh 'mvn clean compile'
        }
    }
    // And next stages if you want to define further...
