@@ -2,7 +2,7 @@ pipeline {
   agent any
   tools{
       maven 'maven3_8_6'
-       }
+   }
 
   stages {
     stage("Build") {
