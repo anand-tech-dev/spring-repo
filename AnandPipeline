@@ -9,7 +9,7 @@ pipeline {
     stage("Build") {
        steps {
           // Just print a Hello, Pipeline to the console
-          echo "Hello, Anand Pipeline !"
+          echo "Hello, Vaishanli Anand Pipeline !"
        }
    }
    // And next stages if you want to define further...
